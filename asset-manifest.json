@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cricket/static/css/main.b5931c77.chunk.css",
+    "main.js": "/cricket/static/js/main.84b25565.chunk.js",
+    "main.js.map": "/cricket/static/js/main.84b25565.chunk.js.map",
+    "runtime-main.js": "/cricket/static/js/runtime-main.954fc421.js",
+    "runtime-main.js.map": "/cricket/static/js/runtime-main.954fc421.js.map",
+    "static/js/2.10fc4d48.chunk.js": "/cricket/static/js/2.10fc4d48.chunk.js",
+    "static/js/2.10fc4d48.chunk.js.map": "/cricket/static/js/2.10fc4d48.chunk.js.map",
+    "index.html": "/cricket/index.html",
+    "precache-manifest.3aaa894caff505879879572a22d76769.js": "/cricket/precache-manifest.3aaa894caff505879879572a22d76769.js",
+    "service-worker.js": "/cricket/service-worker.js",
+    "static/css/main.b5931c77.chunk.css.map": "/cricket/static/css/main.b5931c77.chunk.css.map",
+    "static/js/2.10fc4d48.chunk.js.LICENSE.txt": "/cricket/static/js/2.10fc4d48.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/cricket/static/media/avatar.f1d71f77.jpg",
+    "static/media/christian.jpg": "/cricket/static/media/christian.56633ed3.jpg",
+    "static/media/kendall.jpg": "/cricket/static/media/kendall.e0508cc9.jpg",
+    "static/media/landing-bg.jpg": "/cricket/static/media/landing-bg.4a436785.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.954fc421.js",
+    "static/js/2.10fc4d48.chunk.js",
+    "static/css/main.b5931c77.chunk.css",
+    "static/js/main.84b25565.chunk.js"
+  ]
+}
