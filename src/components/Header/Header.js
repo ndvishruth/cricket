@@ -11,6 +11,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
+import { Link } from 'react-router-dom';
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
@@ -60,7 +61,7 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = <Button className={classes.title}>{brand}</Button>;
+  const brandComponent = <Button className={classes.title}><Link to="/landing-page">{brand}</Link></Button>;
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
