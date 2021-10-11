@@ -48,18 +48,18 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title} style={{color:"white"}}>Here is our team</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} m={12} md={10} className={classes.itemGrid}>
-                <img src={p1} alt="..." className={imageClasses} width="100%" height="100%"/>
+                <img src={p1} alt="..." className={imageClasses} width="75%" />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Prathyush
                 <br />
-                <small className={classes.smallTitle}>Batsman/Bowler</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman/Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -68,46 +68,46 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p2} alt="..." className={imageClasses} width="100%" height="100%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Hari
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p3} alt="..." className={imageClasses} />
+                <img src={p3} alt="..." className={imageClasses} width="100%" height="100%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Gaurav
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p4} alt="..." className={imageClasses} />
+                <img src={p4} alt="..." className={imageClasses}/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Niranjan
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p5} alt="..." className={imageClasses} />
+                <img src={p5} alt="..." className={imageClasses} width="88%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Harsha
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -116,10 +116,10 @@ export default function TeamSection() {
               <GridItem xs={12} m={12} md={10} className={classes.itemGrid}>
                 <img src={p6} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Manas
                 <br />
-                <small className={classes.smallTitle}>Batsman/Bowler</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman/Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -128,10 +128,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p7} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Amrit
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -140,10 +140,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p8} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Devendra
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -152,46 +152,46 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p9} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
                 Zaheer
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p10} alt="..." className={imageClasses} />
+                <img src={p10} alt="..." className={imageClasses} width="60%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Uday
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} m={12} md={10} className={classes.itemGrid}>
-                <img src={p11} alt="..." className={imageClasses} />
+                <img src={p11} alt="..." className={imageClasses} width="64%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Abhishek
                 <br />
-                <small className={classes.smallTitle}>Batsman/Bowler</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman/Bowler</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p12} alt="..." className={imageClasses} />
+                <img src={p12} alt="..." className={imageClasses} width="74%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Anuj
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -200,34 +200,34 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p13} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Shyam
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p14} alt="..." className={imageClasses} />
+                <img src={p14} alt="..." className={imageClasses} width="67%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Sandeep
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={p15} alt="..." className={imageClasses} />
+                <img src={p15} alt="..." className={imageClasses} width="75%"/>
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Sujit
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -236,10 +236,10 @@ export default function TeamSection() {
               <GridItem xs={12} m={12} md={10} className={classes.itemGrid}>
                 <img src={p16} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Sergi
                 <br />
-                <small className={classes.smallTitle}>Batsman/Bowler</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman/Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -248,10 +248,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p17} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Aditya
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -260,10 +260,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p18} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Dheeraj
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -272,10 +272,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p19} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
                 Raj
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -284,10 +284,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p20} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Amit
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -296,10 +296,10 @@ export default function TeamSection() {
               <GridItem xs={12} m={12} md={10} className={classes.itemGrid}>
                 <img src={p21} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Bhaskar
                 <br />
-                <small className={classes.smallTitle}>Batsman/Bowler</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman/Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -308,10 +308,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p22} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Ashish
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>
@@ -320,10 +320,10 @@ export default function TeamSection() {
               <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                 <img src={p23} alt="..." className={imageClasses} />
               </GridItem>
-              <h4 className={classes.cardTitle}>
+              <h4 className={classes.cardTitle} style={{color:"white"}}>
               Shabari
                 <br />
-                <small className={classes.smallTitle}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
               </h4>
             </Card>
           </GridItem>

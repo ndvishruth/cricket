@@ -38,8 +38,8 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <div className={classNames(classes.main, classes.mainRaised)} style={{ marginTop: `5px` }}>
-        <div className={classes.container}>
+      <div style={{ background: 'black' }}>
+        <div className={classes.container} style={{ marginTop: `5px` }}>
           <TeamSection />
         </div>
       </div>
