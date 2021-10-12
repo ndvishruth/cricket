@@ -69,7 +69,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle} style={{color:"white"}}>
               Aashish
                 <br />
-                <small className={classes.smallTitle} style={{color:"white"}}>Batsman/Bowler</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -105,7 +105,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle} style={{color:"white"}}>
               Aditya Jr
                 <br />
-                <small className={classes.smallTitle} style={{color:"white"}}>All Rounder</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -141,7 +141,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle} style={{color:"white"}}>
               Anuj
                 <br />
-                <small className={classes.smallTitle} style={{color:"white"}}>All Rounder</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Bowler</small>
               </h4>
             </Card>
           </GridItem>
@@ -322,7 +322,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle} style={{color:"white"}}>
               Prathyush Mathur
                 <br />
-                <small className={classes.smallTitle} style={{color:"white"}}>Batsman</small>
+                <small className={classes.smallTitle} style={{color:"white"}}>Bowler</small>
               </h4>
             </Card>
           </GridItem>

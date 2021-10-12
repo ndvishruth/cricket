@@ -11,7 +11,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Card from "components/Card/Card.js";
-import classNames from "classnames";
+// import classNames from "classnames";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
