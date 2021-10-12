@@ -53,7 +53,7 @@ export default function LandingPage(props) {
         {...rest}
       />
     
-    <div style={{ background: 'black' }}>
+    <Parallax filter image={require("assets/img/landing-bg.jpg")}>
       <div className={classes.container} style={{ padding: `90px` }}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -113,7 +113,7 @@ export default function LandingPage(props) {
             </GridItem>
           </GridContainer>
         </div>
-      </div>
+      </Parallax>
         
       <Footer />
     </div>
