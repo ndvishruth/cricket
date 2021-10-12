@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cricket/static/css/main.b5931c77.chunk.css",
-    "main.js": "/cricket/static/js/main.1143f309.chunk.js",
-    "main.js.map": "/cricket/static/js/main.1143f309.chunk.js.map",
+    "main.js": "/cricket/static/js/main.e733da21.chunk.js",
+    "main.js.map": "/cricket/static/js/main.e733da21.chunk.js.map",
     "runtime-main.js": "/cricket/static/js/runtime-main.954fc421.js",
     "runtime-main.js.map": "/cricket/static/js/runtime-main.954fc421.js.map",
     "static/js/2.b0c9d1f7.chunk.js": "/cricket/static/js/2.b0c9d1f7.chunk.js",
     "static/js/2.b0c9d1f7.chunk.js.map": "/cricket/static/js/2.b0c9d1f7.chunk.js.map",
     "index.html": "/cricket/index.html",
-    "precache-manifest.2dafd55867ca8fdf146411f9eb2717c8.js": "/cricket/precache-manifest.2dafd55867ca8fdf146411f9eb2717c8.js",
+    "precache-manifest.ff7db5ae7a09a2950b11a717209f8fc1.js": "/cricket/precache-manifest.ff7db5ae7a09a2950b11a717209f8fc1.js",
     "service-worker.js": "/cricket/service-worker.js",
     "static/css/main.b5931c77.chunk.css.map": "/cricket/static/css/main.b5931c77.chunk.css.map",
     "static/js/2.b0c9d1f7.chunk.js.LICENSE.txt": "/cricket/static/js/2.b0c9d1f7.chunk.js.LICENSE.txt",
@@ -57,6 +57,6 @@
     "static/js/runtime-main.954fc421.js",
     "static/js/2.b0c9d1f7.chunk.js",
     "static/css/main.b5931c77.chunk.css",
-    "static/js/main.1143f309.chunk.js"
+    "static/js/main.e733da21.chunk.js"
   ]
 }
