@@ -54,7 +54,7 @@ export default function LandingPage(props) {
       />
     
     <Parallax filter image={require("assets/img/landing-bg.jpg")}>
-      <div className={classes.container} style={{ padding: `90px` }}>
+      <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <div class="row-fluid center">
