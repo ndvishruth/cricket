@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7ad776a3c2da754913aa48e07028e5f",
+    "revision": "ba6e7c1c70636843d3abe91eef9f3e4b",
     "url": "/cricket/index.html"
   },
   {
-    "revision": "55b71ba903ce10fa51d1",
+    "revision": "a1cf4216c216a810cd88",
     "url": "/cricket/static/css/main.b5931c77.chunk.css"
   },
   {
-    "revision": "cb219ad6e1f8a1455863",
-    "url": "/cricket/static/js/2.96db57e2.chunk.js"
+    "revision": "f53a66d54cbc891b9085",
+    "url": "/cricket/static/js/2.b0c9d1f7.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/cricket/static/js/2.96db57e2.chunk.js.LICENSE.txt"
+    "url": "/cricket/static/js/2.b0c9d1f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "55b71ba903ce10fa51d1",
-    "url": "/cricket/static/js/main.4facb3a3.chunk.js"
+    "revision": "a1cf4216c216a810cd88",
+    "url": "/cricket/static/js/main.1143f309.chunk.js"
   },
   {
     "revision": "ca8b2cf0d0031d7c3eda",
     "url": "/cricket/static/js/runtime-main.954fc421.js"
+  },
+  {
+    "revision": "299d1689570ed368bff4860b37ce0605",
+    "url": "/cricket/static/media/Aashish.299d1689.jpeg"
   },
   {
     "revision": "00cc3ecb95e597d37f8f32cd7327462d",
@@ -30,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c39a05c315ed417f1e64f71911998af",
     "url": "/cricket/static/media/Aditya.4c39a05c.jpeg"
+  },
+  {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/AdityaJr.5ac5a6df.png"
   },
   {
     "revision": "21237b4a2d7d0bf36b0d3a86e3580072",
@@ -44,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cricket/static/media/Anuj.d58848b6.jpeg"
   },
   {
-    "revision": "299d1689570ed368bff4860b37ce0605",
-    "url": "/cricket/static/media/Ashish.299d1689.jpeg"
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Aravind.5ac5a6df.png"
   },
   {
     "revision": "e3a2c96d64d1284ef6b410240acc00ad",
@@ -64,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cricket/static/media/Gaurav.397258c4.jpeg"
   },
   {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Govind.5ac5a6df.png"
+  },
+  {
     "revision": "e0fc387f114c155b126daf60eb9d83e9",
     "url": "/cricket/static/media/Hari.e0fc387f.jpeg"
   },
@@ -76,16 +88,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cricket/static/media/Manas.7392e7d4.jpeg"
   },
   {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Mrityunjay.5ac5a6df.png"
+  },
+  {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Nataraj.5ac5a6df.png"
+  },
+  {
     "revision": "2e77046f9151a7f9c2b1a558af7976b3",
     "url": "/cricket/static/media/Niranjan.2e77046f.jpeg"
+  },
+  {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Pradeep.5ac5a6df.png"
   },
   {
     "revision": "c6ed5b72719433133a4ee69f36d91d59",
     "url": "/cricket/static/media/Prathyush.c6ed5b72.jpeg"
   },
   {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/PrathyushJr.5ac5a6df.png"
+  },
+  {
     "revision": "f092d0d6eaad34d75fad3233778ad058",
     "url": "/cricket/static/media/Raj.f092d0d6.jpeg"
+  },
+  {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Ramachandra.5ac5a6df.png"
   },
   {
     "revision": "c217a96719ba30fbae19fa148a11f851",
@@ -102,6 +134,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "afe7b5fa1d14480204f1e5d109fb7e00",
     "url": "/cricket/static/media/Shyam.afe7b5fa.jpeg"
+  },
+  {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Siva.5ac5a6df.png"
+  },
+  {
+    "revision": "5ac5a6df1a53e37b8f286ae5e8ca5cd3",
+    "url": "/cricket/static/media/Souvik.5ac5a6df.png"
   },
   {
     "revision": "c981ecac714e61a6d04d78edfd10f2ca",
@@ -138,5 +178,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "620c26b4d25c6cfd84b123295ccae9bf",
     "url": "/cricket/static/media/bg6.620c26b4.jpeg"
+  },
+  {
+    "revision": "4a436785f188547b8268507a25f4e9ae",
+    "url": "/cricket/static/media/landing-bg.4a436785.jpg"
   }
 ]);
