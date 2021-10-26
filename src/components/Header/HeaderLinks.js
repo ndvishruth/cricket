@@ -47,9 +47,9 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href=""
+          href="/fixtures"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         > Fixtures
         </Button>
@@ -58,7 +58,7 @@ export default function HeaderLinks(props) {
         <Button
           href=""
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >Photos
         </Button>

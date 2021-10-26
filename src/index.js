@@ -11,7 +11,8 @@ import LandingPage from "views/LandingPage/LandingPage.js";
 // import ProfilePage from "views/ProfilePage/ProfilePage.js";
 // import LoginPage from "views/LoginPage/LoginPage.js";
 
-import PlayerProfiles from "views/Player Profiles/player-profiles.js"
+import PlayerProfiles from "views/Player Profiles/player-profiles.js";
+import Fixtures from "views/Fixtures/fixtures.js"
 
 var hist = createBrowserHistory();
 
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/player-profiles" component={PlayerProfiles} />
+      <Route path="/fixtures" component={Fixtures} />
       <Route path="/" component={LandingPage} />
       {/* <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
