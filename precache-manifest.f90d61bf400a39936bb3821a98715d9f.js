@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "102f3800fa481a6e8018adec181250f7",
+    "revision": "656e6adf97b6d2bca7aa9fcf0c92de84",
     "url": "/cricket/index.html"
   },
   {
-    "revision": "0c19ca98a25854786f0c",
+    "revision": "ebf4f6012c3309d832e0",
     "url": "/cricket/static/css/main.b5931c77.chunk.css"
   },
   {
-    "revision": "be2ef597181b75f8bf5f",
-    "url": "/cricket/static/js/2.bba14538.chunk.js"
+    "revision": "5b103680662060642973",
+    "url": "/cricket/static/js/2.46512b28.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/cricket/static/js/2.bba14538.chunk.js.LICENSE.txt"
+    "url": "/cricket/static/js/2.46512b28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c19ca98a25854786f0c",
-    "url": "/cricket/static/js/main.180d181d.chunk.js"
+    "revision": "ebf4f6012c3309d832e0",
+    "url": "/cricket/static/js/main.a7402138.chunk.js"
   },
   {
     "revision": "ca8b2cf0d0031d7c3eda",
