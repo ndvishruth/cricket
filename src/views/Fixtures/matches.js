@@ -15,7 +15,14 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 
 import { cardTitle } from "assets/jss/material-kit-react.js";
-import { Typography } from "@material-ui/core";
+import { CardActionArea, Typography } from "@material-ui/core";
+// import Button from "components/CustomButtons/Button.js";
+
+// import { Link } from "react-router-dom";
+
+// import Spartans from "views/Fixtures/LegendsT20Challenge41Edition/spartansBsk24oct21.js";
+
+// const dashboardRoutes = [];
 
 const styles = {
   cardTitle,
@@ -29,13 +36,14 @@ const styles = {
 
 const useStyles = makeStyles(styles);
 
-export default function Fixtures() {
+export default function Matches() {
     const classes = useStyles();
     return(
         <Card className={classes.textCenter} style={{paddingTop: "100px"}}>
             <CardHeader color="primary">
                 <Typography>Legends T20 Challenge - 41st Edition</Typography>
             </CardHeader>
+            <CardActionArea href="/spartans">
             <CardBody>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={6}>
@@ -47,12 +55,17 @@ export default function Fixtures() {
                         <Typography>128/7 (20.0 Ov)</Typography>
                     </GridItem>
                 </GridContainer>
+                <Typography>Spartans BSK won by 28 runs</Typography>
+                {/* <Link to={"/spartans"} color="primary">
+                    Match Details
+                </Link> */}
+                {/* <Button color="primary" href="/fixtures/spartansBsk24oct21">Match Details</Button> */}
             </CardBody>
-            <Typography>Spartans BSK won by 28 runs</Typography>
-            {/* <Button color="primary">Match Details</Button> */}
+            
             <CardFooter className={classes.textMuted}>
             24-Oct-21
             </CardFooter>
+            </CardActionArea>
         </Card>
     )
 
